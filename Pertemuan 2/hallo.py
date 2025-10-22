@@ -1,0 +1,1 @@
+print ("Hallo, Grafika Komputer")
