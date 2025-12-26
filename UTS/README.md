@@ -1,24 +1,72 @@
-# 🧱 Brick Breaker - UTS Grafika Komputer
+# 🧱 Brick Breaker – UTS Grafika Komputer  
+### 🎮 Penerapan Transformasi 2D & Algoritma Grafika Komputer
 
-Sebuah game interaktif bertema **paddle dan bola** yang menampilkan penerapan **transformasi 2D dan algoritma grafika komputer** menggunakan Python (Tkinter).
+Sebuah **game interaktif bertema paddle dan bola**, yang menampilkan penerapan **transformasi 2D** dan **algoritma grafika komputer dasar** menggunakan **Python (Tkinter)**.  
+Game ini melatih pemahaman konsep **pergerakan, pantulan, dan perubahan bentuk objek grafis** dalam sistem koordinat dua dimensi.
 
-Game ini menerapkan **konsep dasar grafika komputer** dan **transformasi geometris 2D**, meliputi:
-1. **Translasi** → Menggerakkan objek (bola & paddle)
-2. **Rotasi** → Memutar paddle dan bola
-3. **Skala (Scaling)** → Memperbesar atau memperkecil paddle saat power-up
-4. **Refleksi (Mirror)** → Arah pantulan bola saat menabrak dinding, paddle, dan bata
+---
+# 🖼️ Tampilan Game
 
-Algoritma yang Dipakai
-Selain itu, digunakan **algoritma DDA** dan **Midpoint Circle** untuk menggambar garis serta bola secara manual.
-**DDA (Digital Differential Analyzer)** untuk menggambar garis batas (border) pada area permainan 
-**Midpoint Circle Algorithm** untuk menggambar bola secara pixel demi pixel 
-**Transformasi 2D** untuk menerapkan translasi, rotasi, scaling, dan refleksi pada objek dinamis 
-**Refleksi Vektor** untuk mengatur arah pantulan bola secara realistis 
+<img width="900" alt="GameBrickBreaker" src="https://github.com/user-attachments/assets/df015d38-7aa5-4ff0-8b35-c41008613059" />
 
-Cara Menjalankan Program
-1. Pastikan **Python 3** sudah terinstall di perangkatmu.  
-2. Simpan file dengan nama `brick_breaker.py` atau sesuai nama proyekmu.  
-3 Jalankan program dengan perintah
-   
-## 🕹️ Tampilan Game
-<img width="1207" height="948" alt="GameBrickBreaker" src="https://github.com/user-attachments/assets/df015d38-7aa5-4ff0-8b35-c41008613059" />
+📸 **Deskripsi Tampilan:**  
+Game menampilkan area permainan dengan **bata berwarna-warni**, **bola berputar yang memantul**, serta **paddle** yang dapat **berubah ukuran** saat memperoleh power-up.  
+Efek visual sederhana diterapkan untuk **pantulan bola**, **perubahan skala paddle**, dan **animasi power-up** yang jatuh.
+
+---
+
+## 🧠 Konsep Grafika yang Digunakan
+Game ini menerapkan **empat transformasi geometris 2D** utama:
+
+| 🔢 Transformasi | 🧭 Penjelasan |
+|-----------------|---------------|
+| **Translasi** | Menggerakkan objek (bola & paddle) ke arah tertentu. |
+| **Rotasi** | Memutar paddle dan bola saat mengenai objek. |
+| **Scaling (Skala)** | Memperbesar atau memperkecil paddle saat mendapat power-up. |
+| **Refleksi (Mirror)** | Mengubah arah pantulan bola saat menabrak dinding, paddle, atau bata. |
+
+---
+
+## ⚙️ Algoritma yang Digunakan
+Selain transformasi 2D, game ini juga mengimplementasikan **dua algoritma dasar grafika komputer** untuk menggambar objek secara manual (pixel-based drawing).
+
+| 🧩 Algoritma | 🧠 Fungsi |
+|--------------|-----------|
+| **DDA (Digital Differential Analyzer)** | Menggambar **garis batas (border)** area permainan secara bertahap titik demi titik. |
+| **Midpoint Circle Algorithm** | Menggambar **bola (circle)** menggunakan pendekatan simetri 8 titik. |
+| **Transformasi 2D** | Menerapkan translasi, rotasi, scaling, dan refleksi pada objek dinamis. |
+| **Refleksi Vektor** | Mengatur arah **pantulan bola** secara realistis terhadap dinding, paddle, dan bata. |
+
+---
+
+## ⚙️ Cara Menjalankan Program
+
+| 🔢 **Langkah** | 🧭 **Keterangan** |
+|----------------|------------------|
+| 1️⃣ | Pastikan **Python 3** sudah terinstal. |
+| 2️⃣ | Simpan file sesuai nama proyekmu. |
+| 3️⃣ | Buka **terminal / command prompt** di lokasi file tersebut. |
+| 4️⃣ | Jalankan perintah berikut untuk memulai game: <br> ```python brick_breaker.py``` |
+
+---
+
+## 🎮 Kontrol Permainan
+
+| 🎮 **Tombol** | 🧭 **Fungsi** |
+|----------------|----------------|
+| 🖱️ **Mouse** | Menggerakkan paddle ke kiri dan kanan |
+| ⌨️ **SPACE** | Memulai permainan |
+| 🔄 **Q / E** | Memutar paddle ke kiri / kanan |
+| ⚖️ **A / D** | Memperkecil / memperbesar paddle (**Scaling**) |
+
+---
+
+## 💡 Kesimpulan
+
+Melalui proyek ini, dapat memahami dan menerapkan berbagai konsep penting antara lain:
+
+- 🧭 **Transformasi 2D**: Translasi, Rotasi, Scaling, dan Refleksi diterapkan pada objek permainan.  
+- 🧮 **Algoritma DDA & Midpoint Circle**: Digunakan untuk menggambar garis dan lingkaran secara manual (pixel-based).  
+- 🎮 **Interaksi & Animasi 2D**: Menciptakan game sederhana dengan elemen dinamis melalui modul **Tkinter** di Python.  
+
+---
