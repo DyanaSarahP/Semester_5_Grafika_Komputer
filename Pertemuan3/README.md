@@ -1,5 +1,5 @@
 # 🎨 Praktikum Grafika Komputer  
-### 📘 Topik: Sistem Koordinat dan Representasi Gambar
+### 📘 Sistem Koordinat dan Representasi Gambar
 
 Dokumentasi hasil praktikum yang mempelajari konsep dasar **grafika komputer** meliputi sistem koordinat 2D, representasi titik, garis, raster, dan vektor menggunakan bahasa **Python**.
 
