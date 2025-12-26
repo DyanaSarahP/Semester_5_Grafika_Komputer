@@ -40,14 +40,16 @@ Proyek ini mengimplementasikan berbagai **konsep dasar grafika komputer**, antar
 1. Pastikan **Python 3** dan **Pygame** sudah terinstal
 2. Simpan file
 3. Jalankan program
-4. Gunakan kontrol 
+4. Gunakan 🎮 Kontrol Permainan
 
-Tombol
-A / D atau ← / →	: Bergerak kiri / kanan
-W / ↑ / SPACE	: Melompat
-E	Dash : (Translasi cepat ke depan)
-Q	: Serangan berputar (Rotasi)
-H	: Menampilkan atau menyembunyikan instruksi
-🌌 Masuki portal	Berpindah ke dunia cermin (Refleksi Y)
+| 🎮 **Tombol** | 🧭 **Fungsi** |
+|----------------|----------------|
+| `A / D` atau `← / →` | Bergerak ke kiri / kanan |
+| `W / ↑ / SPACE` | Melompat |
+| `E` | Dash — Translasi cepat ke depan |
+| `Q` | Serangan berputar (Rotasi) |
+| `H` | Menampilkan atau menyembunyikan instruksi |
+| 🌌 **Masuki Portal** | Berpindah ke dunia cermin (Refleksi sumbu-Y) |
+)
 
 ---
